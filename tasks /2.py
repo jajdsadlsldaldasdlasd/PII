@@ -1,4 +1,5 @@
 # 2 task
+
 num = float(input())
 if num == int(num):
     print(f"Ваше число {num} является целым")

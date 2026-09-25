@@ -1,5 +1,5 @@
 celcs = int(input())
 far = (celcs * 9/5) + 32
 kelv =  celcs + 273.15
-print(far)
-print(kelv)
+print(f"температура в цельсиях {celcs}°C = температура в фаренгейтах с точностью до сотых {far}°F")
+print(f"температура в цельсиях {celcs}°C = температура в кельвинах с точностью до сотых {kelv}K")
